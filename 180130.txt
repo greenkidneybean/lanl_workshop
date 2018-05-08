@@ -1,0 +1,75 @@
+---
+Los Alamos Workshop 1 - Seq Database
+---
+tinyurl.com/hiv-db-2018
+
+https://www.hiv.lanl.gov/content/index
+
+hxb2 is the primary reference?
+
+build a tree with references and test
+
+database began 1986
+can use for any virus (tools)
+
+use wildcard "*" in search to show everything
+
+context: geographic and phylogenic
+
+outgroup: next closest croup outside your search
+clades: a, b, c
+  others are a combination (BF1 is a combination of
+  b and f, and the 1 is just in this donor)
+
+pipeline:
+alignment->tree->refine alignment
+
+maximum liklihood
+generate an alignment and pop it into this or pup fig
+
+
+figtree
+before importing tree, treat gap handling "treat as missing"
+tree -> midpoint root
+
+genecutter:
+virus is often not intact, single insertion or deletion
+deals with shitty overlapping reading frames
+
+save info to background -> tab delimited database
+
+prebuilt alignments
+
+alignment type: use filtered web (good sequences)
+compendium alignment - overall picture, fit on 2 pages
+  pic of global epidemic (200 seq)
+
+consensus: it's like the common ancestor
+  doesn't change much
+  anchor for the clade
+
+what if you just improve the replicase of the virus
+
+elimdupes - condense deep sequencing reads to a matrix of only unique reads and the count
+
+make tree to double-check expectations
+  where do the samples lie
+  check against a reference
+
+sequence locator (tool)
+awesome, give the position of each gene in your sequence
+
+variable region characteristics (tools)
+strong relationship between hypervariale loops and viral escape
+have strong charges
+
+highlighter (tool)
+id recombinants
+strip away what is the same
+ctl epitope?
+
+
+
+
+questions:
+whats the backend database (sql?)
